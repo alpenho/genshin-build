@@ -1,0 +1,87 @@
+[
+  {
+    "name": "The Black Sword",
+    "star": 4,
+    "weapon_type": "sword",
+    "main_status": {
+      "status_type": "attack",
+      "value": 42,
+      "percentage": false
+    },
+    "sub_statuses": [
+      {
+        "status_type": "critical_rate",
+        "value": 6.0,
+        "percentage": true
+      }
+    ]
+  },
+  {
+    "name": "Blackcliff Warbow",
+    "star": 4,
+    "weapon_type": "bow",
+    "main_status": {
+      "status_type": "attack",
+      "value": 44,
+      "percentage": false
+    },
+    "sub_statuses": [
+      {
+        "status_type": "critical_damage",
+        "value": 8.0,
+        "percentage": true
+      }
+    ]
+  },
+  {
+    "name": "Prototype Starglitter",
+    "star": 4,
+    "weapon_type": "polearm",
+    "main_status": {
+      "status_type": "attack",
+      "value": 42,
+      "percentage": false
+    },
+    "sub_statuses": [
+      {
+        "status_type": "energy_recharge",
+        "value": 10.0,
+        "percentage": true
+      }
+    ]
+  },
+  {
+    "name": "Whiteblind",
+    "star": 4,
+    "weapon_type": "claymore",
+    "main_status": {
+      "status_type": "attack",
+      "value": 42,
+      "percentage": false
+    },
+    "sub_statuses": [
+      {
+        "status_type": "defense",
+        "value": 11.3,
+        "percentage": true
+      }
+    ]
+  },
+  {
+    "name": "Mappa Mare",
+    "star": 4,
+    "weapon_type": "catalyst",
+    "main_status": {
+      "status_type": "attack",
+      "value": 44,
+      "percentage": false
+    },
+    "sub_statuses": [
+      {
+        "status_type": "elemental_mastery",
+        "value": 24,
+        "percentage": false
+      }
+    ]
+  }
+]

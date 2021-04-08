@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Adventurer's Flower",
+    "star": 1,
+    "artifact_type": "flower",
+    "main_status": {
+      "status_type": "health_point",
+      "value": 450,
+      "percentage": false
+    },
+    "sub_statuses": [
+      {
+        "status_type": "health_point",
+        "value": 1.2,
+        "percentage": true
+      }
+    ]
+  },
+  {
+    "name": "Adventurer's Tail Feather",
+    "star": 1,
+    "artifact_type": "plume",
+    "main_status": {
+      "status_type": "attack",
+      "value": 30,
+      "percentage": false
+    },
+    "sub_statuses": [
+      {
+        "status_type": "elemental_mastery",
+        "value": 6,
+        "percentage": false
+      }
+    ]
+  },
+  {
+    "name": "Adventurer's Pocket Watch",
+    "star": 1,
+    "artifact_type": "sands",
+    "main_status": {
+      "status_type": "attack",
+      "value": 5.7,
+      "percentage": true
+    },
+    "sub_statuses": [
+      {
+        "status_type": "energy_recharge",
+        "value": 1.3,
+        "percentage": true
+      }
+    ]
+  },
+  {
+    "name": "Adventurer's Golden Goblet",
+    "star": 1,
+    "artifact_type": "goblet",
+    "main_status": {
+      "status_type": "physical_damage_bonus",
+      "value": 7.2,
+      "percentage": true
+    },
+    "sub_statuses": [
+      {
+        "status_type": "critical_damage",
+        "value": 1.9,
+        "percentage": true
+      },
+      {
+        "status_type": "defense",
+        "value": 2,
+        "percentage": false
+      }
+    ]
+  },
+  {
+    "name": "Adventurer's Bandana",
+    "star": 1,
+    "artifact_type": "circlet",
+    "main_status": {
+      "status_type": "critical_rate",
+      "value": 4.2,
+      "percentage": true
+    },
+    "sub_statuses": [
+      {
+        "status_type": "critical_damage",
+        "value": 1.9,
+        "percentage": true
+      },
+      {
+        "status_type": "defense",
+        "value": 2,
+        "percentage": false
+      }
+    ]
+  }
+]

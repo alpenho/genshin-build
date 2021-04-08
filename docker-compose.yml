@@ -1,0 +1,18 @@
+version: "3"
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+      MYSQL_DATABASE: "genshin-build"
+      MYSQL_USER: "root"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+    ports:
+      - "3308:3308"
+  api:
+    build: ./api
+    ports:
+      - "9292:9292"
+    depends_on:
+      - db
