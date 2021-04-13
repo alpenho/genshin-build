@@ -1,0 +1,16 @@
+[
+  {
+    "level": 80,
+    "ascension": true,
+    "name": "Zhongli",
+    "element": 0,
+    "health_point": 13662,
+    "attack": 233,
+    "defense": 686,
+    "ascension_bonus_type": "geo_damage_bonus",
+    "value": 28.8,
+    "percentage": true,
+    "critical_rate": 5,
+    "critical_damage": 50
+  }
+]

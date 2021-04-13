@@ -10,12 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_04_073032) do
+ActiveRecord::Schema.define(version: 2021_04_13_153535) do
 
   create_table "artifacts", charset: "utf8", force: :cascade do |t|
     t.string "name"
     t.integer "star"
     t.integer "artifact_type", default: 0
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "characters", charset: "utf8", force: :cascade do |t|
+    t.integer "level", default: 1
+    t.boolean "ascension", default: false
+    t.string "name"
+    t.integer "element", default: 0
+    t.integer "health_point"
+    t.integer "attack"
+    t.integer "defense"
+    t.integer "ascension_bonus_type", default: 0
+    t.float "value"
+    t.boolean "percentage", default: false
+    t.float "critical_rate"
+    t.float "critical_damage"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

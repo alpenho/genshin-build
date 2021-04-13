@@ -26,6 +26,11 @@ class GenshinApp < Sinatra::Base
     json @weapons
   end
 
+  get '/characters' do
+    @characters = ::Weapon.all
+    json @characters
+  end
+
   post '/graphql' do
     result = ApiSchema.execute(
       params[:query],

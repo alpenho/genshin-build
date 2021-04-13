@@ -40,4 +40,28 @@ Dir['db/seeds/*.json'].each do |path|
       end
     end
   end
+
+  if filename == 'character'
+    file = File.open(path)
+    characters = JSON.load(file)
+
+    characters.each do |character|
+      char = Character.new(
+        level: character['level'],
+        ascension: character['ascension'],
+        name: character['name'],
+        element: character['element'],
+        health_point: character['health_point'],
+        attack: character['attack'],
+        defense: character['defense'],
+        ascension_bonus_type: character['ascension_bonus_type'],
+        value: character['value'],
+        percentage: character['percentage'],
+        critical_rate: character['critical_rate'],
+        critical_damage: character['critical_damage']
+      )
+
+      char.save!
+    end
+  end
 end
