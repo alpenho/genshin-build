@@ -10,6 +10,7 @@ Monorepo for website about building genshin character
 
 ## Development
 
+### API
 1. Change the api config `database.yml` to your local database e.g.
 ```ruby
 host: localhost
@@ -34,3 +35,6 @@ or
 ```
 2. `/artifacts` GET
 3. `/weapons` GET
+
+### Current Database Architecture
+![image](https://user-images.githubusercontent.com/24479555/115822247-68e1a000-a42e-11eb-891b-35c11d7c49f2.png)
